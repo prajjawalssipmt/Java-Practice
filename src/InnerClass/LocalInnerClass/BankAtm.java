@@ -9,10 +9,6 @@ public class BankAtm {
 
         class TransactionValidator{
 
-            public double getBalance(){
-                return accountBalance-amount;
-            }
-
             void validate(){
                 if (amount<=0){
                     System.out.println("Invalid amount!");
