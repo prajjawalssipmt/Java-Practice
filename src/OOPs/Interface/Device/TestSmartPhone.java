@@ -7,7 +7,7 @@ public class TestSmartPhone {
         smartPhone.stopMusic();
         smartPhone.clickPhoto();
         smartPhone.recordVideo();
-        smartPhone.makeCall(69324588);
+        smartPhone.makeCall(669324588);
         smartPhone.endCall();
     }
 }
