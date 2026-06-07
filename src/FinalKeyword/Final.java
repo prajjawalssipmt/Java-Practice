@@ -1,4 +1,6 @@
 package FinalKeyword;
 
-public class Final {
+public final class Final extends FinalKeyword{
+
+
 }
