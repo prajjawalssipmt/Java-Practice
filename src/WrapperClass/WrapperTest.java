@@ -14,6 +14,8 @@ public class WrapperTest {
         int c=iObj1;
         int d=iObj;
         System.out.println(c==d);
+        int max = Integer.max(c, d);
+        System.out.println("Max: "+max);
 
         //ParseInt
         String age="21";
