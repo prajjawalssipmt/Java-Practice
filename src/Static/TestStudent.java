@@ -8,7 +8,7 @@ public class TestStudent {
         Student s3 = new Student();
         Student.getCount();
 
-        System.out.println(School.getInstance());
+        System.out.println(School.getInstance().toString());
         System.out.println(School.getInstance());
 
     }
