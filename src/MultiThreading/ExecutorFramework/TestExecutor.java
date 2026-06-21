@@ -9,7 +9,6 @@ public class TestExecutor {
         long currentTime = System.currentTimeMillis();
         ExecutorService executor = Executors.newFixedThreadPool(3);
         for (int i = 1; i < 10; i++) {
-
             int finalI = i;
             executor.submit(()->{
                 long factorial = factorial(finalI);
@@ -19,7 +18,7 @@ public class TestExecutor {
         executor.shutdown();
 
         try {
-            executor.awaitTermination(1, TimeUnit.SECONDS);
+            executor.awaitTermination(10, TimeUnit.SECONDS);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
